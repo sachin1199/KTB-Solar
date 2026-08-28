@@ -1,3 +1,4 @@
+
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
@@ -11,15 +12,11 @@ import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
 import NotFound from './pages/NotFound'
 
-
-
 function ScrollToTop() {
   const { pathname } = useLocation()
 
   useEffect(() => {
-    if (pathname === '/contact') {
-      window.scrollTo(0, 0)
-    }
+    window.scrollTo(0, 0)
   }, [pathname])
 
   return null
@@ -28,9 +25,10 @@ function ScrollToTop() {
 export default function App() {
   return (
     <div className="flex flex-col min-h-screen">
-            <ScrollToTop />
+      <ScrollToTop />
 
       <Navbar />
+
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -43,6 +41,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+
       <Footer />
     </div>
   )

@@ -23,10 +23,14 @@ export default function ServicesGrid({ limit }) {
         const Icon = ICON_MAP[s.icon] || SunMedium
         return (
           <Reveal
-            key={s.title}
-            delay={(i % 3) * 100}
-            className="group rounded-2xl border border-navy-950/8 bg-white p-7 transition-all hover:border-brand-400/40 hover:shadow-xl hover:shadow-brand-600/5"
-          >
+  key={s.title}
+  id={s.title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')}
+  delay={(i % 3) * 100}
+  className="group rounded-2xl border border-navy-950/8 bg-white p-7 transition-all hover:border-brand-400/40 hover:shadow-xl hover:shadow-brand-600/5"
+>
             <div className="w-11 h-11 rounded-lg bg-gradient-to-br from-brand-600 to-sun-500 flex items-center justify-center text-white">
               <Icon size={22} strokeWidth={2.2} />
             </div>

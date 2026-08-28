@@ -35,33 +35,48 @@ export default function Footer() {
 
   <ul className="flex flex-col gap-2 text-sm">
     <li>
-      <Link to="/contact" className="hover:text-brand-400 transition-colors">
-        PV System Design
-      </Link>
+      <Link
+  to="/services#pv-system-design-layouts"
+  className="hover:text-brand-400 transition-colors"
+>
+  PV System Design
+</Link>
     </li>
 
     <li>
-      <Link to="/contact" className="hover:text-brand-400 transition-colors">
-        Electrical Design
-      </Link>
+      <Link
+  to="/services#electrical-design-single-line-diagrams"
+  className="hover:text-brand-400 transition-colors"
+>
+  Electrical Design
+</Link>
     </li>
 
     <li>
-      <Link to="/contact" className="hover:text-brand-400 transition-colors">
-        BESS Design
-      </Link>
+      <Link
+  to="/services#bess-battery-system-design"
+  className="hover:text-brand-400 transition-colors"
+>
+  BESS Design
+</Link>
     </li>
 
     <li>
-      <Link to="/contact" className="hover:text-brand-400 transition-colors">
-        Permit-Ready Plans
-      </Link>
+      <Link
+  to="/services#permit-ready-plan-sets"
+  className="hover:text-brand-400 transition-colors"
+>
+  Permit-Ready Plans
+</Link>
     </li>
 
     <li>
-      <Link to="/contact" className="hover:text-brand-400 transition-colors">
-        Engineering & Documentation
-      </Link>
+      <Link
+  to="/services#engineering-calculations-documentation"
+  className="hover:text-brand-400 transition-colors"
+>
+  Engineering & Documentation
+</Link>
     </li>
 
     <li>
