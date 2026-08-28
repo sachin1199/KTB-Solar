@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body text-ink bg-offwhite antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid theme('colors.sun.500');
+  outline-offset: 2px;
+}
+
+.eyebrow {
+  @apply inline-flex items-center gap-2 text-xs font-semibold tracking-[0.18em] uppercase text-brand-600;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-brand-600 to-brand-400 text-white font-display font-semibold px-6 py-3 shadow-lg shadow-brand-600/20 transition-transform duration-200 hover:scale-[1.03] active:scale-[0.98];
+}
+
+.btn-secondary {
+  @apply inline-flex items-center gap-2 rounded-full border border-navy-700/20 text-navy-900 font-display font-semibold px-6 py-3 transition-colors duration-200 hover:bg-navy-950 hover:text-white;
+}
+
+.input-field {
+  @apply w-full rounded-lg border border-navy-950/15 bg-white px-4 py-3 text-navy-950 placeholder:text-slate-light focus:border-brand-500 focus:outline-none transition-colors;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(1.08); }
+}
+.motion-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.motion-marquee {
+  animation: marquee 18s linear infinite;
+  width: max-content;
+}
