@@ -81,7 +81,7 @@ export default function Footer() {
 
     <li>
       <Link to="/contact" className="hover:text-brand-400 transition-colors">
-        Professional Engineering
+        QA/QC & Commissioning Support
       </Link>
     </li>
   </ul>
