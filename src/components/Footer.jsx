@@ -80,10 +80,13 @@ export default function Footer() {
     </li>
 
     <li>
-      <Link to="/contact" className="hover:text-brand-400 transition-colors">
-        QA/QC & Commissioning Support
-      </Link>
-    </li>
+  <Link
+    to="/services#pr-stamping"
+    className="hover:text-brand-400 transition-colors"
+  >
+    PR Stamping
+  </Link>
+</li>
   </ul>
 </div>
 
@@ -162,14 +165,14 @@ export default function Footer() {
               <span className="block text-slate-light/60 text-xs uppercase tracking-wide mb-1">
                 Address
               </span>
-             <a
-        href="https://www.google.com/maps/search/?api=1&query=Greater+Toronto+Area+Canada"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block mt-1 hover:text-brand-400 transition-colors"
-      >
-        Greater Toronto Area, Canada
-      </a>
+      <a
+  href="https://www.google.com/maps/search/?api=1&query=2960+Drew+Rd+Mississauga+ON+L4T+0A5"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block mt-1 hover:text-brand-400 transition-colors"
+>
+  2960 Drew Rd, Mississauga, ON L4T 0A5
+</a>
             </li>
 
             <li>

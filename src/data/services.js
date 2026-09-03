@@ -36,8 +36,8 @@ const services = [
     icon: 'PlugZap',
   },
   {
-    title: 'QA/QC & Commissioning Support',
-    description: 'Quality assurance and commissioning support to confirm systems are built to design and spec.',
+    title: 'PR Stamping',
+    description: 'Professional Engineer review, stamping, and signing of engineering designs and documentation to support permitting and project requirements across Canada and the United States.',
     icon: 'ClipboardCheck',
   },
 ]
