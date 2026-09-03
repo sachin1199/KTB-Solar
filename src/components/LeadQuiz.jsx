@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 
-const FORM_ENDPOINT = 'https://formspree.io/f/xlgwldje'
+const FORM_ENDPOINT = 'https://formspree.io/f/xrpgkvbj'
 
 
 const PHONE_PATTERN = '^[0-9+\\-\\s()]{7,20}$'

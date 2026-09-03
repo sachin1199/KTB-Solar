@@ -177,10 +177,10 @@ export default function Footer() {
                 Email
               </span>
               <a
-                href="mailto:Kptcaps@gmail.com"
+                href="mailto:file@ktbsolar.com"
                 className="hover:text-brand-400 transition-colors"
               >
-                Kptcaps@gmail.com
+                file@ktbsolar.com
               </a>
             </li>
 
