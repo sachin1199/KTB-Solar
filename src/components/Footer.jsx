@@ -84,7 +84,7 @@ export default function Footer() {
     to="/services#pr-stamping"
     className="hover:text-brand-400 transition-colors"
   >
-    PR Stamping
+    PE Stamping
   </Link>
 </li>
   </ul>

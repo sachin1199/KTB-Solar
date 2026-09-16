@@ -33,7 +33,7 @@ export default function About() {
               Our remote engineering capabilities let our team of 20+ solar PV, BESS, electrical design, and QA/QC specialists support projects across multiple jurisdictions. We currently serve partners across Canada and the United States, without geographic limitations.
             </p>
             <p className="mt-6 text-slate text-lg leading-relaxed">
-              {'Since our founding, we\u2019ve supported 100+ residential and commercial solar and energy storage projects, with a focus on precision engineering that helps our partners move through permitting and interconnection with fewer delays and fewer revisions.'}
+              {'Since our founding, we\u2019ve supported 500+ residential and commercial solar and energy storage projects, with a focus on precision engineering that helps our partners move through permitting and interconnection with fewer delays and fewer revisions.'}
             </p>
           </Reveal>
           <Reveal delay={150} className="md:col-span-2">

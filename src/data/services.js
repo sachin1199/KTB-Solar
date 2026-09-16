@@ -36,7 +36,7 @@ const services = [
     icon: 'PlugZap',
   },
   {
-    title: 'PR Stamping',
+    title: 'PE Stamping',
     description: 'Professional Engineer review, stamping, and signing of engineering designs and documentation to support permitting and project requirements across Canada and the United States.',
     icon: 'ClipboardCheck',
   },
